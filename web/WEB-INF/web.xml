@@ -19,4 +19,28 @@
         <servlet-name>FirstJSP</servlet-name>
         <url-pattern>/hello_world-jsp</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>SetCookieServlet</servlet-name>
+        <servlet-class>SetCookieServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetCookieServlet</servlet-name>
+        <url-pattern>/set_cookies</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>GetCookieServlet</servlet-name>
+        <servlet-class>GetCookieServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetCookieServlet</servlet-name>
+        <url-pattern>/get_cookies</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DeleteCookieServlet</servlet-name>
+        <servlet-class>DeleteCookieServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteCookieServlet</servlet-name>
+        <url-pattern>/delete_cookies</url-pattern>
+    </servlet-mapping>
 </web-app>
